@@ -1,9 +1,11 @@
-#root {
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.selected {
+	border: 2px solid red !important;
 }
 
-.selezionato {
-  border: 2px solid red !important;
+.list-group .list-group-item {
+    cursor: pointer;
+}
+
+.list-group .list-group-item:nth-child(even) {
+    background-color: bisque;
 }
